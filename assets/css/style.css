@@ -8,6 +8,20 @@ header{
     
     background-color: rosybrown;
 }
+.go-up{
+    position: fixed;
+    bottom: 5px;
+    right: 5px;
+    background-color: antiquewhite;
+    color: rgb(22, 9, 63);
+    border: 2px solid rosybrown;
+    height:40px;
+    width: 40px;
+    text-align: center;
+}
+.go-up h4{
+    margin: 10px 0px;
+}
 .navbar{
 display: flex;
 justify-content: space-between;
@@ -101,9 +115,7 @@ a{
     .my-pic{
         margin-left: 0px;
     }
-    .my-work{
-        margin: 0px;
-    }
+    
 }
 figcaption{
     background-color: rosybrown;
