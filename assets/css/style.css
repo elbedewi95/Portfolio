@@ -10,7 +10,7 @@ header{
 /* Button to scroll all the way up */
 .go-up{
     position: fixed;
-    bottom: 5px;
+    bottom: 50%;
     right: 5px;
     background-color: antiquewhite;
     color: rgb(22, 9, 63);
