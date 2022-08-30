@@ -1,0 +1,127 @@
+
+body{
+    width: 100vw;
+    background-color: antiquewhite;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+header{
+    height: fit-content;
+   
+    background-color: rosybrown;
+}
+.navbar{
+display: flex;
+justify-content: space-between;
+flex-wrap: wrap;
+}
+.navbar-item1{
+    flex-basis: 50%;
+   color: antiquewhite;
+   font-weight: 500;
+   font-size: 30px;
+   text-shadow: -1px -1px 1px rgb(22, 9, 63);
+   
+}
+h1{
+    margin: 5px 20px;
+}
+.navbar-item2{
+    display: flex;
+    justify-content: space-evenly;
+    margin: 0px 20px;
+  
+}
+li{
+    margin: 0px 20px;
+    list-style-type: none;
+    display: inline;  
+}
+a{
+    text-decoration: none;
+    color: rgb(22, 9, 63);
+    text-shadow: 0.5px 0.5px 0.5px antiquewhite;
+}
+.main-container{
+    margin: 30px 20px;
+    display:flex;
+    flex-direction: column;
+}
+.section-title{
+
+    align-content: center;
+    padding: 10px;
+    border-right: 5px solid rgb(22, 9, 63);
+}
+.section-title h3{
+   
+    display: flex;
+    flex-direction: column;
+    color: rgb(22, 9, 63);
+    text-shadow: 2px 2px 5px rosybrown ;
+}
+.about-me{
+    display:flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    padding-bottom: 50px;
+    border-bottom: 1px solid rgb(22, 9, 63);
+}
+.my-pic img{
+    border: 2px solid rosybrown;
+   height: 200px;
+   width:190px;
+}
+.my-bio{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    flex-basis: 70%;
+    color: rgb(22, 9, 63);
+}
+
+.my-work{
+    padding: 50px 0px;
+    display: flex;
+    flex-wrap: wrap;
+    border-bottom: 1px solid rgb(22, 9, 63);
+}
+.first-project img{
+    height: 300px;
+    width:500px
+}
+@media screen and (max-width:700px) {
+    .first-project img{
+        height:150px;
+        width:300px;
+    }
+}
+figcaption{
+    background-color: rosybrown;
+    color: antiquewhite;
+    font-weight: 100;
+    font-size: 20px;
+    text-shadow: -1px -1px 1px rgb(22, 9, 63);
+}
+.other-projects{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+.other-projects img{
+    height:120px;
+    width: 120px;
+}
+.top, .bottom{
+    display: flex;
+    flex-direction: row;
+}
+.contact-me{
+    padding: 50px 0px;
+    display: flex;
+    flex-wrap: wrap;
+    border-bottom: 1px solid rgb(22, 9, 63);
+}
+.my-info{
+    margin-left: 20px;
+}
+
