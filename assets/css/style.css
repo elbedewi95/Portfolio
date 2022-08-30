@@ -5,8 +5,7 @@ body{
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 header{
-    height: fit-content;
-   
+    
     background-color: rosybrown;
 }
 .navbar{
@@ -47,13 +46,12 @@ a{
     flex-direction: column;
 }
 .section-title{
-
     align-content: center;
     padding: 10px;
-    border-right: 5px solid rgb(22, 9, 63);
+    
+   
 }
 .section-title h3{
-   
     display: flex;
     flex-direction: column;
     color: rgb(22, 9, 63);
@@ -61,13 +59,13 @@ a{
 }
 .about-me{
     display:flex;
-    flex-wrap: wrap;
+    flex-wrap: nowrap;
     flex-direction: row;
     padding-bottom: 50px;
     border-bottom: 1px solid rgb(22, 9, 63);
 }
 .my-pic img{
-    border: 2px solid rosybrown;
+   border: 2px solid rosybrown;
    height: 200px;
    width:190px;
 }
@@ -89,10 +87,22 @@ a{
     height: 300px;
     width:500px
 }
-@media screen and (max-width:700px) {
+@media screen and (max-width:600px) {
     .first-project img{
         height:150px;
         width:300px;
+    }
+    .about-me{
+        display: block;
+    }
+    .section-title{
+        display: block;
+    }
+    .my-pic{
+        margin-left: 0px;
+    }
+    .my-work{
+        margin: 0px;
     }
 }
 figcaption{
@@ -123,5 +133,6 @@ figcaption{
 }
 .my-info{
     margin-left: 20px;
+    color: rgb(22, 9, 63);
 }
 
