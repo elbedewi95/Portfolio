@@ -5,9 +5,9 @@ body{
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 header{
-    
     background-color: rosybrown;
 }
+/* Button to scroll all the way up */
 .go-up{
     position: fixed;
     bottom: 5px;
@@ -22,11 +22,13 @@ header{
 .go-up h4{
     margin: 10px 0px;
 }
+/* the whole navigation bar */
 .navbar{
 display: flex;
 justify-content: space-between;
 flex-wrap: wrap;
 }
+/* -Portfolio- style */
 .navbar-item1{
     flex-basis: 50%;
    color: antiquewhite;
@@ -38,6 +40,7 @@ flex-wrap: wrap;
 h1{
     margin: 5px 20px;
 }
+/* links style */
 .navbar-item2{
     display: flex;
     justify-content: space-evenly;
@@ -54,11 +57,13 @@ a{
     color: rgb(22, 9, 63);
     text-shadow: 0.5px 0.5px 0.5px antiquewhite;
 }
+/* main container flexbox */
 .main-container{
     margin: 30px 20px;
     display:flex;
     flex-direction: column;
 }
+/* left side title style */
 .section-title{
     align-content: center;
     padding: 10px;
@@ -71,6 +76,7 @@ a{
     color: rgb(22, 9, 63);
     text-shadow: 2px 2px 5px rosybrown ;
 }
+/* about me section */
 .about-me{
     display:flex;
     flex-wrap: nowrap;
@@ -90,7 +96,7 @@ a{
     flex-basis: 70%;
     color: rgb(22, 9, 63);
 }
-
+/* my work section */
 .my-work{
     padding: 50px 0px;
     display: flex;
@@ -100,22 +106,6 @@ a{
 .first-project img{
     height: 300px;
     width:500px
-}
-@media screen and (max-width:600px) {
-    .first-project img{
-        height:150px;
-        width:300px;
-    }
-    .about-me{
-        display: block;
-    }
-    .section-title{
-        display: block;
-    }
-    .my-pic{
-        margin-left: 0px;
-    }
-    
 }
 figcaption{
     background-color: rosybrown;
@@ -137,6 +127,7 @@ figcaption{
     display: flex;
     flex-direction: row;
 }
+/* contact me section */
 .contact-me{
     padding: 50px 0px;
     display: flex;
@@ -155,3 +146,23 @@ footer{
     text-align: left;
 }
 
+/* resposive website style code */
+@media screen and (max-width:600px) {
+    .first-project img{
+        height:150px;
+        width:300px;
+    }
+    .about-me{
+        display: block;
+    }
+    .section-title{
+        display: block;
+    }
+    .my-pic{
+        margin-left: 0px;
+    }
+    .my-work{
+        display: block;
+    }
+    
+}
